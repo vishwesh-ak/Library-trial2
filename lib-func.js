@@ -148,6 +148,8 @@ function signout()
 	document.getElementById("sname").value="";
 	document.getElementById("spass").value="";
 	document.getElementById("sigbut").innerHTML='<input type="button" value="Sign-In" onclick="sign()" />';
+	var str='<h2>Here, the return of borrowed books can be scheduled.</h2><br><label>Enter Number of Books to be returned : </label><input type="number" id="retbnum" /><input type="button" value="Next" onclick="retbooks()"/><p id="pararet1"></p><table id="rettab" border="1" cellpadding="5" cellspacing="0"></table><br><br><p id="pararetrn1"></p><table id="rnt" cellpadding="5" cellspacing="0" border="2"></table><p id="parartrn2"></p>';
+	document.getElementById("retcelladded").innerHTML=str;
 	putit();
 	retguidance();
 }
