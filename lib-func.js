@@ -350,7 +350,7 @@ function retguidance()
 		}
 		if(count==0)
 		{
-			document.getElementById("rettabpara").innerHTML="You do not havy any book in your possession";
+			document.getElementById("rettabpara").innerHTML="You do not have any book in your possession";
 			document.getElementById("retguide").innerHTML="";	
 		}
 	}
