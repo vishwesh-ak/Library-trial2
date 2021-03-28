@@ -1,4 +1,4 @@
-# LibraryLife
+# LibraryLife - Project Submission by Vishwesh Anantha Krishnan
 
 ## Inspiration
 Due to the Coronavirus, many people find themselves stuck inside their house. Reading is an excellent solution to alleviate boredom. However, having multiple people accessing a single library is quite undesirable nowadays. This website removes that problem.
